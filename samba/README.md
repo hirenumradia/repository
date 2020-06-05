@@ -1,14 +1,13 @@
-# Home Assistant Add-on: SSH server
+# Home Assistant Add-on: Samba share
 
-Allow logging in remotely to Home Assistant using SSH or just the web terminal with Ingress.
+Share your configuration over the network using Windows file sharing.
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
 
 ## About
 
-Setting up an SSH server allows access to your Home Assistant folders with any SSH
-client. It also includes a command-line tool to access the Home Assistant API.
-
+This Add-on allows you to enable file sharing across different operating systems over a network.
+It lets you access your config files with Windows and macOS devices.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

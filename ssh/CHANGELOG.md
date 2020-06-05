@@ -1,20 +1,68 @@
-[Full Changelog][changelog]
+# Changelog
 
-### 🔨 Changes
+## 8.6.0
 
-- ✏ Fix typo in README (#140)
-- ⬆ Updates homeassistant_cli to v0.9.1 (#139)
-- ⬆ Upgrades add-on base image to v7.2.0
-- 🔨 Implement OCI image specification on labels
-- ⬆ Upgrades docker to 19.03.5-r1
-- ⬆ Upgrades libxml2-utils to 2.9.10-r3
-- ⬆ Upgrades mariadb-client to 10.4.13-r0
-- ⬆ Upgrades ncurses to 6.1_p20200118-r4
-- ⬆ Upgrades sqlite to 3.30.1-r2
-- ✏ Split add-on documentation
-- ✏ Fix core SSH add-on links in documentation
+- Add support for local TCP forwarding
 
-[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v7.4.0...v7.4.1
+## 8.5.4
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
+- Update Home Assistant CLI to 4.3.0
+
+## 8.5.3
+
+- Update Home Assistant CLI to 4.2.0
+
+## 8.5.2
+
+- Update Home Assistant CLI to 4.1.0
+
+## 8.5.1
+
+- Show warning if SSH port is disabled
+
+## 8.5.0
+
+- Add support for PulseAudio with new Audio backend
+- Migrate to s6-overlay
+
+## 8.4.0
+
+- Support to use only web terminal without SSH server
+
+**ATTENTION:** If you want access with SSH, you need maybe add the Port setting option back.
+
+## 8.3.0
+
+- Update Home Assistant CLI to 4.0.1
+- Add backward compatibility with the hassio command
+- Update Web terminal to ttyd 1.6.0 with Libwebsockets 3.2.2
+- Rename HASSIO_TOKEN to SUPERVISOR_TOKEN in shell profile
+
+## 8.2.0
+
+- Fix creation of new tmux terminal windows
+- Add add-on icon
+- Update welcome logo
+- Fix SSH folder issue with authorized keys
+
+## 8.1.0
+
+- Fix for non existing .bash_profile startup error
+- Add current, short, path to command line prompt
+
+## 8.0.0
+
+- Add support for a web-based terminal via Ingress
+- Upgrade Alpine Linux to 3.11
+- Improve Hass.io API token handling
+- Persist .ssh folder across restarts
+- Add helper symlink folders to user home folder
+
+## 7.1.0
+
+- Update Hass.io CLI to 3.1.1
+
+## 7.0.0
+
+- Added bash_profile as a persistent file
+
